@@ -12,7 +12,7 @@ public:
 	Zombie(std::string name);
 	~Zombie();
 
-	void	announce(void) const;
+	void	announce() const;
 };
 
 #endif /* ZOMBIE_HPP */

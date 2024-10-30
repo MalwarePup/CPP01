@@ -14,8 +14,6 @@ VPATH := $(srcdir)
 
 # List of source files
 SRCS := main.cpp \
-		newZombie.cpp \
-		randomChump.cpp \
 		Zombie.cpp \
 		zombieHorde.cpp
 # List of object files, placed in the bindir

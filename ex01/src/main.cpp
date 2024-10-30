@@ -2,11 +2,9 @@
 #include <string>
 #include "Zombie.hpp"
 
-Zombie* newZombie(std::string name);
-void randomChump(std::string name);
 Zombie* zombieHorde(int N, std::string name);
 
-int	main(void)
+int	main()
 {
 	int N = 10;
 	Zombie* horde = zombieHorde(N, "Zombie");

@@ -5,7 +5,7 @@
 Zombie* newZombie(std::string name);
 void randomChump(std::string name);
 
-int	main(void)
+int	main()
 {
 	std::cout << "Creating a heap allocated Zombie named Foo" << std::endl;
 	Zombie* z = newZombie("Foo");

@@ -9,13 +9,12 @@ private:
 	std::string	_name;
 
 public:
-	Zombie(void);
-	Zombie(std::string name);
-	~Zombie(void);
+	Zombie();
+	~Zombie();
 
 	void	setName(const std::string& name);
 
-	void	announce(void) const;
+	void	announce() const;
 };
 
 #endif /* ZOMBIE_HPP */
