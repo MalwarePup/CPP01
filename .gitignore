@@ -32,6 +32,7 @@
 *.app
 zombie
 horde
+brain
 
 # macOS
 *.DS_Store
