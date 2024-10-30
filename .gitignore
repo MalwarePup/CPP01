@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+zombie
+
+# macOS
+*.DS_Store
+
+# Visual Studio Code
+*.vscode
+
+# Jetbrains
+*.idea
