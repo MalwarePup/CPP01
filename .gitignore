@@ -31,6 +31,7 @@
 *.out
 *.app
 zombie
+horde
 
 # macOS
 *.DS_Store
