@@ -1,7 +1,7 @@
 # Use the standard shell
 SHELL := /bin/sh
 # Name of the output executable
-NAME := unnecessary_violence
+NAME := unnecessaryViolence
 
 # Directory containing source files
 srcdir := ./src
