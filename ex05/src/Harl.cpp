@@ -21,7 +21,7 @@ void Harl::error()
 	std::cout << "[ ERROR ]\nThis is unacceptable! I want to speak to the manager now.\n" << std::endl;
 }
 
-void Harl::complain(std::string level)
+void Harl::complain(const std::string &level)
 {
 	void (Harl:: * funcPtr[])(void) =
 	{
@@ -40,5 +40,5 @@ void Harl::complain(std::string level)
 			return ;
 		}
 	}
-	std::cout << "[ UNKNOWN ]\nLevel not recognized.\n" << std::endl;
+	std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;
 }
