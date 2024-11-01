@@ -38,10 +38,10 @@ void replaceOccurrences(std::string& line, const std::string& s1, const std::str
 void processFile(std::ifstream& ifs, std::ofstream& ofs, const std::string& s1, const std::string& s2)
 {
 	std::string line;
-	while (std::getline(ifs, line))
+	while (std::getline(ifs, line, '\0'))
 	{
 		replaceOccurrences(line, s1, s2);
-		ofs << line << std::endl;
+		ofs << line;
 	}
 }
 
